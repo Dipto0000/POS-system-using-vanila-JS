@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline POS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Offline POS</h2>
+        <div class="nav-item active" data-view="pos">New Sale</div>
+        <div class="nav-item" data-view="products">Product List</div>
+        <div class="nav-item" data-view="sales">Purchase List</div>
+    </aside>
+
+    <main class="main-container">
+        <header>
+            <div id="view-title">New Sale</div>
+            <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+        </header>
+
+        <section class="content" id="app-content">
+            <!-- Content will be dynamically injected here -->
+        </section>
+    </main>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal-content">
+            <!-- Modal content will be injected here -->
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
