@@ -213,9 +213,11 @@ const showPaymentModal = () => {
         <label>Paying through</label>
         <select id="pay-method">
           <option>Cash</option>
-          <option>MFS</option>
-          <option>CARD</option>
-          <option>BANK</option>
+          <option>bKash</option>
+          <option>Nagad</option>
+          <option>Rocket</option>
+          <option>Card</option>
+          <option>Bank</option>
         </select>
       </div>
       <div style="width: 200px; padding: 1rem; border: 1px solid var(--border-color); background: var(--sidebar-bg); border-radius: 4px;">
